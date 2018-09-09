@@ -1,2 +1,2 @@
 # BossBarAPI
-Simple library for PMMP
+- Simple library for PMMP
