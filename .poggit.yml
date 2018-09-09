@@ -1,7 +1,0 @@
----
-projects:
-  BossBarAPI:
-    type: library
-    model: virion
-    path: ""
-...
