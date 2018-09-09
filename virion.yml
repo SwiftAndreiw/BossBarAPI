@@ -1,6 +1,6 @@
 name: BossBarAPI
-version: 5.0.0
+version: 6.0.0
 antigen: xenialdan\BossBarAPI
-api: [3.0.0-ALPHA7,3.0.0-ALPHA8,3.0.0-ALPHA9]
-php: [7.0]
+api: [4.0.0]
+php: [7.2]
 author: XenialDan
