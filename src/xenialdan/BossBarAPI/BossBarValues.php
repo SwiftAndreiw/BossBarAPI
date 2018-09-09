@@ -5,6 +5,7 @@ namespace xenialdan\BossBarAPI;
 use pocketmine\entity\Attribute;
 
 class BossBarValues extends Attribute{
+
 	public $min, $max, $value, $name;
 
 	public function __construct($min, $max, $value, $name){
