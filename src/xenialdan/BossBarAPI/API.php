@@ -61,6 +61,14 @@ class API{
 		$player->dataPacket($bpk);
 	}
 
+	public static function removeBossBar($players, int $eid){
+		if (empty($players)) return false;
+		$pk = new RemoveEntityPacket();
+		$pk->entityUniqueId = $eid;
+		Server::getInstance()->broadcastPacket($players, $pk);
+		return true;
+	}
+
 	public static function setPercentage(int $percentage, int $eid, $players = []){
 		if (empty($players)) $players = Server::getInstance()->getOnlinePlayers();
 		if (!count($players) > 0) return;
@@ -96,13 +104,5 @@ class API{
 		$bpk->overlay = 0;
 		$bpk->playerEid = 0;
 		Server::getInstance()->broadcastPacket($players, $bpk);
-	}
-
-	public static function removeBossBar($players, int $eid){
-		if (empty($players)) return false;
-		$pk = new RemoveEntityPacket();
-		$pk->entityUniqueId = $eid;
-		Server::getInstance()->broadcastPacket($players, $pk);
-		return true;
 	}
 }
