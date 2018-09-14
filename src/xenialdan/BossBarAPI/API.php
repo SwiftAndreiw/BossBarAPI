@@ -15,7 +15,7 @@ class API{
 
 	const ENTITY = 37;
 
-	public static function addBossBar($players, string $title = "Loading...", $ticks = null){
+	public static function addBossBar($players, string $title, $ticks = null){
 		if (empty($players)) return null;
 		$eid = Entity::$entityCount++;
 		$packet = new AddEntityPacket();
