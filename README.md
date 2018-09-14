@@ -1,2 +1,2 @@
 # BossBarAPI
-Poggit download/information: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SmartLord/BossAnnouncement/BossAnnouncement)](https://poggit.pmmp.io/ci/SmartLord/BossAnnouncement/BossAnnouncement)
+Poggit download/information: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/SmartLord/BossBarAPI/BossBarAPI)](https://poggit.pmmp.io/ci/SmartLord/BossBarAPI/BossBarAPI)
